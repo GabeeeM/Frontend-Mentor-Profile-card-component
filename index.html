@@ -6,6 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,21 +18,36 @@
   </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Gabriel Mack</a>.
-  </div>
+    <div class="card">
+        <div class="cardimg">
+            <img src="/images/bg-pattern-card.svg" alt="">
+        </div> <!--/cardimg-->
+        <div class="pfp">
+            <img src="/images/image-victor.jpg" alt="">
+        </div> <!--/pfp-->
+        <div class="topcard">
+           <span><strong>Victor Crest</strong> 26</span>
+        </div> <!--/topcard-->
+        <div class="london">
+            <p>London</p>
+        </div> <!--/london-->   
+        <hr>
+        <div class="stats">
+            <div class="indstat">
+                <h2>80k</h2><p>Followers</p>
+            </div> <!--/indstat-->
+            <div class="indstat">
+                <h2>803K</h2><p>Likes</p>
+            </div> <!--/indstat-->
+            <div class="indstat">
+                <h2>1.4K</h2><p>Photos</p>
+            </div> <!--/indstat-->
+        </div> <!--/stats-->
+    
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Gabriel Mack</a>.
+        </div>
+    </div> <!--/card-->
 </body>
 </html>
